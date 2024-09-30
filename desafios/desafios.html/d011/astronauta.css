@@ -1,0 +1,9 @@
+div img.primeira{
+    position: absolute;
+}
+
+div img.segunda{
+    display: block;
+    position: relative;
+    margin: auto;
+}

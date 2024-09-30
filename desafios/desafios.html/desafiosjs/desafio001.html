@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens</title>
+    <style>
+        h1{
+            font-weight: bold;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            font-weight: lighter;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            float: left;
+            padding: 20px;
+            border: 1px solid black;
+            margin: 10px;
+            
+        
+        }
+        p:hover{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio das Mensagens</h1>
+    <input id="b1" type="button" onclick="clicar1()" value="Botão 1">
+    <input id="b2" type="button" onclick="clicar1()" value="Botão 2">
+    <input id="b3" type="button" onclick="clicar1()" value="Botão 3"> 
+
+
+    <script>
+    
+        var a = window.document.getElementById('b1')
+        var b = window.document.getElementById('b2')
+        var c = window.document.getElementById('b3')
+
+
+        function clicar1(){
+            alert('Você clicou no 1 botão')
+        }
+
+        function clicar2(){
+            alert('Você clicou no 2 botão')
+        }
+
+        function clicar3(){
+            alert('Você clicou no 3 botão')
+        }
+
+    </script>
+</body>
+</html>
